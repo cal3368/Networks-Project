@@ -34,6 +34,7 @@ The demo could be run by running:
 python3 controller.py
 
 This printed the client, server, and load balancer initializiations and then periodically prints a table displaying information on the number of servers and how many requests each has according to the load balancer history.
+Logs are then ceated displaying information on each server and client.
 
 ## After the Demo
 
