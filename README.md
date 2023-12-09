@@ -9,7 +9,8 @@ This project repository contains the files necessary for implementing a load bal
 Before and for the demo, the demo was run by using the following JSON configurations:
 
 ```json
-"server": {
+{
+  "server": {
     "count": "1",
     "port_range_start": "50000",
     "port_range_end": "51000",
@@ -30,6 +31,7 @@ Before and for the demo, the demo was run by using the following JSON configurat
   "controller": {
     "port": "55000"
   }
+}
 ```
 
 The demo could be run by running:
