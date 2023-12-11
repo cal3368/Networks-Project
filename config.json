@@ -1,14 +1,14 @@
 {
   "server": {
-    "count": "10",
+    "count": "1",
     "port_range_start": "50000",
     "port_range_end": "51000",
     "start_id": "0",
     "queue_update_interval": "10"
   },
   "client": {
-    "count": "1",
-    "port_range_start": "51000",
+    "count": "10",
+    "port_range_start": "51001",
     "port_range_end": "52000",
     "start_id": "1000"
   },
