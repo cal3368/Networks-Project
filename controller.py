@@ -113,7 +113,7 @@ def main():
     run_components(["loadbalancer.py", configurations["load_balancer"]["client_side_port"],
                     configurations["load_balancer"]["server_side_port"],
                     configurations["controller"]["port"],
-                    configurations["load_balancer"]["max_queue_size"]])
+                    configurations["load_balancer"]["server_scaling_threshold"]])
 
     # running servers
     for i in range(int(configurations["server"]["count"])):
