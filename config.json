@@ -8,7 +8,7 @@
   },
   "client": {
     "count": "10",
-    "port_range_start": "51001",
+    "port_range_start": "51000",
     "port_range_end": "52000",
     "start_id": "1000"
   },
